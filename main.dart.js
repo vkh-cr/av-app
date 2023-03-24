@@ -31282,14 +31282,14 @@ A.yr.prototype={
 gm(a){return a.length}}
 A.BP.prototype={}
 A.yb.prototype={
-O(a){return new A.p7(B.Az,"Flutter Demo",A.a65(null,B.ey,null),null)}}
+O(a){return new A.p7(B.Az,"Absolventsk\xfd Velehrad",A.a65(null,B.ey,null),null)}}
 A.pj.prototype={
 av(){return new A.rZ(B.m)}}
 A.rZ.prototype={
 KP(){this.aD(new A.Yv(this))},
 O(a){var s,r=null
 this.a.toString
-s=A.a62("Flutter Demo Home Page",r)
+s=A.a62("Absolventsk\xfd Velehrad",r)
 return new A.qi(new A.np(s,new A.EY(r,r,1/0,56),r),A.J5(A.aaZ(A.a([B.FS,A.a62(""+this.d,A.bd(a).p3.e)],t.F),B.zP),r,r),A.a4C(B.wq,!1,this.gKO(),"Increment"),r)}}
 A.Yv.prototype={
 $0(){++this.a.d},
@@ -52934,7 +52934,7 @@ B.F2=new A.l(!0,B.h,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.EG=new A.l(!0,B.h,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.FQ=new A.cN(B.Eq,B.Fz,B.Fi,B.Da,B.Fa,B.Ej,B.FD,B.DB,B.E2,B.F5,B.D5,B.Fk,B.F8,B.F2,B.EG)
 B.FR=new A.B0(1,"longestLine")
-B.FS=new A.m9("You have pushed the button this many times:",null,null,null,null)
+B.FS=new A.m9("Plus plus plus!:",null,null,null,null)
 B.Ig=new A.VU(0,"system")
 B.FT=new A.qX(null)
 B.dg=new A.B4(0,"clamp")
