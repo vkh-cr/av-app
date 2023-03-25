@@ -4,27 +4,32 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
+"favicon-32x32.png": "f22159fcf416a06ecfcf5894b9f7b087",
 "main.dart.js": "fa0b0031160c575e9bd8756e581dc533",
 "canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
 "canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
 "canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
 "canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"favicon-16x16.png": "dfe25d2f531eff636316692e14a0e795",
+"favicon.png": "6fb5d6f862ea45c8e106498c95eacebd",
 "version.json": "8803c388cdd1e8f8a5fce9aedb5b6d5d",
 "manifest.json": "c6c9c26887617d99e1beffc3a481e404",
 "assets/AssetManifest.json": "20a03946c34757c1270681a4f9f33dc5",
-"assets/assets/images/avlogo.svg": "d6255d0c331df629ce8900b27a757768",
+"assets/assets/images/avlogo.svg": "c50b450a246111c58199c5736b24bad0",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/fonts/RussoOne-Regular.ttf": "8a511841065ce7bd13b845eeea880d6e",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/FontManifest.json": "889097f68582d3a5bdce6b2720c162e5",
 "assets/NOTICES": "7f73890513f894ea7567f6e7917f6d1d",
-"index.html": "2f8438cc8782482c08aea5593a1453ff",
-"/": "2f8438cc8782482c08aea5593a1453ff",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c"
+"android-chrome-192x192.png": "aefced29f3db758a7d8ee8f95027405f",
+"apple-touch-icon.png": "1231824f1ccc08ce6dc899b69ccf7f83",
+"android-chrome-512x512.png": "2892310b0218abf14b427060b082b6a3",
+"index.html": "25cd034b9bd09a503d898b7ca7456791",
+"/": "25cd034b9bd09a503d898b7ca7456791",
+"icons/Icon-512.png": "1197d3dccb8336b06d34991d7d1448d6",
+"icons/Icon-192.png": "c227e03773bf059c78871d25181e8e41",
+"icons/Icon-maskable-512.png": "f01e351a04589eaa46fb472c1d57c03a",
+"icons/Icon-maskable-192.png": "4fb792b0cbe4f3675a4cb87d5dbb83d7"
 };
 
 // The application shell files that are downloaded before a service worker can
