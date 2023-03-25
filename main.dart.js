@@ -35375,7 +35375,7 @@ A.rv.prototype={
 aN(){return new A.vJ(B.n)}}
 A.vJ.prototype={
 Y(a){var s=null,r=this.gPO(),q=t.af
-return new A.tF(A.ys(A.a([new A.ip(B.An,new A.El(250,new A.ue("images/avlogo.svg",s,s,B.wA,s),"Absolventsk\xfd Velehrad",s,s),s),new A.ip(B.Al,A.acZ(A.a([A.ys(A.a([A.TU(B.xE,B.B0,r),B.Mg],q),B.cc),A.ys(A.a([A.TU(B.yL,B.B_,r),B.Md],q),B.cc),A.ys(A.a([A.TU(B.e9,B.AY,r),B.Me],q),B.cc),A.ys(A.a([A.TU(B.xD,B.AX,r),B.Mf],q),B.cc)],q),B.EX,B.eZ),s)],q),B.eZ),s)},
+return new A.tF(A.ys(A.a([new A.ip(B.An,new A.El(250,new A.ue("assets/images/avlogo.svg",s,s,B.wA,s),"Absolventsk\xfd Velehrad",s,s),s),new A.ip(B.Al,A.acZ(A.a([A.ys(A.a([A.TU(B.xE,B.B0,r),B.Mg],q),B.cc),A.ys(A.a([A.TU(B.yL,B.B_,r),B.Md],q),B.cc),A.ys(A.a([A.TU(B.e9,B.AY,r),B.Me],q),B.cc),A.ys(A.a([A.TU(B.xD,B.AX,r),B.Mf],q),B.cc)],q),B.EX,B.eZ),s)],q),B.eZ),s)},
 PP(){}}
 A.B0.prototype={
 Y(a3){var s=null,r=$.ai1(),q=r.a,p=r.c,o=r.d,n=r.e,m=r.f,l=r.r,k=r.w,j=r.x,i=r.y,h=r.z,g=r.Q,f=r.as,e=r.at,d=r.ax,c=r.ay,b=r.ch,a=r.CW,a0=r.cx,a1=r.cy,a2=r.db
