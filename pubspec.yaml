@@ -32,6 +32,7 @@ dependencies:
     sdk: flutter
   flutter_svg: ^2.0.4
   fluttertoast: ^8.0.7
+  timelines: ^0.1.0
   http:
 
   # The following adds the Cupertino Icons font to your application.
@@ -43,6 +44,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  timelines: ^0.1.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
