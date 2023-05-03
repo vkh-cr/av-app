@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:av_app/Models/Information.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:supabase_flutter/supabase_flutter.dart';
@@ -60,4 +61,28 @@ class DataService {
 
   static Future<dynamic> getPlaces() async =>
       await _supabase.from('places').select();
+
+  static Future<List<Information>> getAllInformation() async {
+    final response = await _supabase
+      .from(Information.informationTable)
+      .select()
+      .order('created_at', ascending: false );
+
+    return (response as List<dynamic>)
+      .map((n) => Information.fromDynamic(n))
+      .toList();
+  }
+
+  static Future<void> saveInformation(Information information) async {
+      await _supabase
+          .from(Information.informationTable)
+          .insert(information.toInsertMap());
+  }
+
+  static Future<void> deleteInformation(int informationId) async{
+    await _supabase
+        .from(Information.informationTable)
+        .delete()
+        .eq(Information.idColumn, informationId);
+  }
 }

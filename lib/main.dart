@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:av_app/pages/AdministrationPage.dart';
 import 'package:av_app/pages/PlayingPage.dart';
 import 'package:av_app/pages/MapPage.dart';
 import 'package:av_app/services/DataService.dart';
@@ -215,7 +216,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _infoPressed() {
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => const PlayingPage()));
+        context, MaterialPageRoute(builder: (context) => const AdministrationPage()));
   }
 
   void _mapPressed() {
